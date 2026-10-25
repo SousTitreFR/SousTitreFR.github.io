@@ -53,4 +53,4 @@ Ces conditions peuvent évoluer. La date de dernière mise à jour figure en hau
 
 ## 7. Contact
 
-Pour toute question, ouvre un ticket sur le dépôt du projet : <https://codeberg.org/DarkDiablo/srtannouncer/issues>
+Pour toute question, ouvre un ticket sur le dépôt du projet : <https://github.com/SousTitreFR/SousTitreFR.github.io/issues>

@@ -40,7 +40,7 @@ Discord traite de son côté les données liées à ton utilisation de sa platef
 Tu peux à tout moment :
 
 - **arrêter le traitement pour ton serveur** : utilise `/unsetup` ou retire le bot du serveur. L'identifiant du serveur et celui du salon sont alors supprimés immédiatement ;
-- **demander l'accès à tes données ou leur suppression**, y compris dans les journaux techniques, en ouvrant un ticket sur <https://codeberg.org/DarkDiablo/srtannouncer/issues>.
+- **demander l'accès à tes données ou leur suppression**, y compris dans les journaux techniques, en ouvrant un ticket sur <https://github.com/SousTitreFR/SousTitreFR.github.io/issues>.
 
 Si tu résides dans l'Union européenne, tu disposes aussi des droits prévus par le RGPD (accès, rectification, effacement, opposition), et tu peux saisir l'autorité de protection des données de ton pays (en France, la [CNIL](https://www.cnil.fr)).
 
@@ -50,4 +50,4 @@ Cette politique peut évoluer. La date de dernière mise à jour figure en haut 
 
 ## 6. Contact
 
-<https://codeberg.org/DarkDiablo/srtannouncer/issues>
+<https://github.com/SousTitreFR/SousTitreFR.github.io/issues>
