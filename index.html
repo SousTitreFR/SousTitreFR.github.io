@@ -1,0 +1,123 @@
+---
+title: SousTitreFR
+---
+<div class="wrap">
+  <div class="hero">
+    <div>
+      <h1>Les sous-titres <span>français</span>, dès leur sortie.</h1>
+      <p class="lead">SousTitreFR surveille Addic7ed, Sous-titres.eu et OpenSubtitles, et annonce chaque nouveau sous-titre de série dans le salon Discord de ton choix.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="{{ site.invite_url }}">Ajouter à Discord</a>
+        <a class="btn btn-ghost" href="#commandes">Voir les commandes</a>
+      </div>
+    </div>
+
+    <figure class="discord" aria-label="Exemple d'annonces dans un salon Discord" style="margin:0">
+      <div class="discord-msg">
+        <img src="/assets/avatar.png" alt="" width="40" height="40">
+        <div>
+          <div class="discord-name">SousTitreFR<small>APP</small></div>
+          <div class="embed" style="--c:#2ecc71">
+            <div class="embed-author">ADDIC7ED</div>
+            <div class="embed-title">Fire.Country.S05E03.AMZN</div>
+            <div class="embed-foot">Aujourd'hui à 21:28</div>
+          </div>
+          <div class="embed" style="--c:#3498db">
+            <div class="embed-author">SRT.EU</div>
+            <div class="embed-title">Sheriff.Country.101@107.DVDRip.Z1.BraD.FR.zip</div>
+            <div class="embed-foot">Aujourd'hui à 21:23</div>
+          </div>
+          <div class="embed" style="--c:#e67e22">
+            <div class="embed-author">OPENSUBTITLE</div>
+            <div class="embed-title">"Law and Order: Special Victims Unit" S28E03</div>
+            <div class="embed-foot">Aujourd'hui à 21:23</div>
+          </div>
+        </div>
+      </div>
+    </figure>
+  </div>
+</div>
+
+<section aria-labelledby="installation">
+  <div class="wrap">
+    <h2 id="installation">Installation en 3 étapes</h2>
+    <p class="section-lead">Une minute suffit, et aucun réglage compliqué.</p>
+    <div class="grid">
+      <div class="card">
+        <div class="step">Étape 1</div>
+        <h3>Ajoute le bot</h3>
+        <p>Clique sur « Ajouter à Discord » et choisis ton serveur. Le bot demande seulement de voir le salon, d'y écrire et d'y intégrer des liens.</p>
+      </div>
+      <div class="card">
+        <div class="step">Étape 2</div>
+        <h3>Choisis le salon</h3>
+        <p>Tape <code>/setup</code> et sélectionne le salon des annonces. Il faut la permission « Gérer les salons ».</p>
+      </div>
+      <div class="card">
+        <div class="step">Étape 3</div>
+        <h3>C'est tout</h3>
+        <p>Chaque nouveau sous-titre français arrive dans le salon, avec le lien vers sa page. <code>/unsetup</code> arrête tout.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="commandes" aria-labelledby="titre-commandes">
+  <div class="wrap">
+    <h2 id="titre-commandes">Commandes</h2>
+    <p class="section-lead">Les réponses ne sont visibles que par toi : personne d'autre dans le salon ne les voit.</p>
+    <div class="grid">
+      <div class="card">
+        <p class="cmd">/last <span>[nombre] [source]</span></p>
+        <p>Les dernières annonces, jusqu'à 10, éventuellement filtrées par source.</p>
+      </div>
+      <div class="card">
+        <p class="cmd">/search <span>terme</span></p>
+        <p>Retrouve un sous-titre dans tout l'historique, par exemple <code>the bear</code>.</p>
+      </div>
+      <div class="card">
+        <p class="cmd">/status</p>
+        <p>L'état du bot et de chaque source, avec le nombre d'annonces du jour.</p>
+      </div>
+      <div class="card">
+        <p class="cmd">/setup <span>salon</span></p>
+        <p>Choisit le salon qui reçoit les annonces sur ton serveur.</p>
+        <span class="badge">Gérer les salons</span>
+      </div>
+      <div class="card">
+        <p class="cmd">/unsetup</p>
+        <p>Arrête les annonces sur ton serveur.</p>
+        <span class="badge">Gérer les salons</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sources" aria-labelledby="titre-sources">
+  <div class="wrap">
+    <h2 id="titre-sources">Sources suivies</h2>
+    <p class="section-lead">Chaque source est vérifiée toutes les 5 minutes. Seuls les sous-titres français sont annoncés.</p>
+    <div class="grid">
+      <div class="card src" style="--c:#2ecc71">
+        <h3>Addic7ed</h3>
+        <p>Les nouvelles versions et les nouvelles traductions françaises.</p>
+      </div>
+      <div class="card src" style="--c:#3498db">
+        <h3>Sous-titres.eu</h3>
+        <p>Toutes les nouvelles publications de séries.</p>
+      </div>
+      <div class="card src" style="--c:#e67e22">
+        <h3>OpenSubtitles</h3>
+        <p>Les derniers sous-titres français de séries.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="cta">
+    <h2>Prêt à ne plus rien rater ?</h2>
+    <p class="section-lead">Gratuit, sans publicité, et sans accès au contenu des messages de ton serveur.</p>
+    <a class="btn btn-primary" href="{{ site.invite_url }}">Ajouter à Discord</a>
+  </div>
+</div>

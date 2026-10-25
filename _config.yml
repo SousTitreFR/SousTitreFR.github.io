@@ -1,0 +1,14 @@
+title: SousTitreFR
+description: Les nouveaux sous-titres français de séries, annoncés sur ton serveur Discord dès leur sortie.
+lang: fr
+url: https://soustitrefr.github.io
+invite_url: https://discord.com/oauth2/authorize?client_id=1563608827578949652&permissions=19456&integration_type=0&scope=bot+applications.commands
+
+# Les .md sans en-tête sont rendus avec le layout du site, à des adresses lisibles
+defaults:
+  - scope: { path: "" }
+    values: { layout: default }
+  - scope: { path: "CONDITIONS.md" }
+    values: { permalink: /conditions/, title: "Conditions d'utilisation" }
+  - scope: { path: "CONFIDENTIALITE.md" }
+    values: { permalink: /confidentialite/, title: "Politique de confidentialité" }
